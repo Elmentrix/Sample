@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- interest calculator -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Calculator</title>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div class="main-grp">
+		<h2>SIMPLE INTEREST CALCULATOR</h2>
+		
+		<div class="main-grp-a">
+			<label class="am">Amount</label>
+			<input type="number" name="amount" id="amount_id"><br><br>
+			<label class="yr">Year</label>
+			<input type="number" name="years" id="year_id"><br><br>
+			<label class="rt">Rate</label>
+			<input type="number" name="rate" id="rate_id">
+		</div>
+		<div class="main-grp-c" style="text-align: center;">
+			<br>
+			<label>Interest</label>
+			<p id="interesting"></p>
+		</div>
+		<div class="res">
+			<div class="main-grp-b">
+				<button type="button" onclick="interest()">Calculate</button>
+			</div>
+			<div class="main-grp-b">
+				<button type="button" onclick="reset()" class="res_btn">reset</button>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
